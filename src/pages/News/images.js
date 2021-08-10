@@ -58,10 +58,14 @@ import www1 from "./images/www1.jpg";
 import www2 from "./images/www2.jpg";
 import www3 from "./images/www3.jpg";
 import img100 from "./images/img100.jpg";
+import artimg1 from "./images/articleimg1.jpg";
+import artimg2 from "./images/articleimg2.jpg";
 
 // import www3 from "./images/www3.jpg";
 
 export default {
+  artimg1,
+  artimg2,
   img100,
   akak8,
   akak9,

@@ -38,34 +38,18 @@ function Articles() {
             </div>
             <div className="articless__container-box">
               <div className="articless__container-img">
-                <img src={images.img100} alt="" />
+                <img src={images.artimg1} alt="" />
               </div>
               <div className="articless__container-tittle">
                 <h2>
-                  Группа Компаний “Новая Норма” и Исследовательский институт по
-                  изучению Блокчейн «Централ Эйжа Интернэшнл» начинают
-                  сотрудничество.
+                ГК “Новая Норма” предоставляет маркировку легкой промышленности в Кыргызстане. 
                 </h2>
               </div>
               <div className="articless__container-btn">
-                <NavLink to="/articles1"> Подробнее</NavLink>
+                <NavLink to="/articles2"> Подробнее</NavLink>
               </div>
             </div>
-            <div className="articless__container-box">
-              <div className="articless__container-img">
-                <img src={images.img100} alt="" />
-              </div>
-              <div className="articless__container-tittle">
-                <h2>
-                  Группа Компаний “Новая Норма” и Исследовательский институт по
-                  изучению Блокчейн «Централ Эйжа Интернэшнл» начинают
-                  сотрудничество.
-                </h2>
-              </div>
-              <div className="articless__container-btn">
-                <NavLink to="/articles1"> Подробнее</NavLink>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
-import React, { useEffect } from "react"
-import "./Footer.css"
+import React, { useEffect } from "react";
+import "./Footer.css";
 
-import { Link, NavLink, useLocation } from "react-router-dom"
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 export default function Footer() {
   const { pathname } = useLocation();
@@ -19,7 +19,7 @@ export default function Footer() {
       icons: "fab fa-youtube",
     },
     { href: "https://t.me/normakg", icons: "fab fa-telegram-plane" },
-  ]
+  ];
   return (
     <footer className="footer">
       <div className="container">
@@ -58,8 +58,6 @@ export default function Footer() {
               </NavLink>
               <div className="footer__link">Руководство пользователя</div>
               {/* <div className="footer__link">Описание процессов</div> */}
-            
-              
             </div>
           </div>
 
@@ -85,31 +83,30 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   href="tel:+996501588882"
                 >
-                  +996 501 588 882
+                  +996 500 333 380{" "}
                 </a>
-                - call-center
               </div>
 
               <div className="footer__link">
                 <span>
-                  <a
+                  {/* <a
                     target="_blank"
                     rel="noopener noreferrer"
                     href="tel:+996708700700"
                   >
                     +996 708 700 700
-                  </a>
+                  </a> */}
                 </span>
               </div>
               <div className="footer__link">
                 <span>
-                  <a
+                  {/* <a
                     target="_blank"
                     rel="noopener noreferrer"
                     href="tel:+996312888882"
                   >
                     +996 312 888 882
-                  </a>
+                  </a> */}
                 </span>
               </div>
               {links.map((item) => (
@@ -132,5 +129,5 @@ export default function Footer() {
         </p>
       </div>
     </footer>
-  )
+  );
 }

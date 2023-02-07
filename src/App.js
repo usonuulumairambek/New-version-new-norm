@@ -27,6 +27,7 @@ import Parfum from "./pages/Parfum/Parfum";
 import Articles from "./pages/News/Articles";
 import Articles1 from "./pages/News/articlesPage/Articles1";
 import Articles2 from "./pages/News/articlesPage/Articles2";
+import Articles3 from "./pages/News/articlesPage/Articles3";
 
 function App() {
   const [equipmentSection, setEquipmentSection] = useState("main");
@@ -67,6 +68,7 @@ function App() {
         <Route path="/articles" component={Articles} />
         <Route path="/articles1" component={Articles1} />
         <Route path="/articles2" component={Articles2} />
+        <Route path="/articles3" component={Articles3} />
 
       </Switch>
       <Footer />

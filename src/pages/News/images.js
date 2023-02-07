@@ -60,10 +60,18 @@ import www3 from "./images/www3.jpg";
 import img100 from "./images/img100.jpg";
 import artimg1 from "./images/articleimg1.jpg";
 import artimg2 from "./images/articleimg2.jpg";
+import artimg3 from "./images/artimg3.jpg";
+import artimg5 from "./images/artimg5.jpg";
+import shineminxin from "./images/22.jpg"
+import shineminxin1 from "./images/23.jpg"
 
 // import www3 from "./images/www3.jpg";
 
 export default {
+  shineminxin1,
+  shineminxin,
+  artimg3,
+  artimg5,
   artimg1,
   artimg2,
   img100,

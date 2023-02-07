@@ -21,35 +21,38 @@ function Articles() {
             </NavLink>{" "}
           </div>
           <div className="articless__container">
-            <div className="articless__container-box">
-              <div className="articless__container-img">
-                <img src={images.img100} alt="" />
+          <NavLink to="/articles3">
+              <div className="articless__container-box">
+                <div className="articless__container-img">
+                  <img src={images.artimg5} alt="" />
+                </div>
+                <div className="articless__container-tittle">
+                  <h2>
+                  ГК “Новая Норма” предоставляет маркировку молочной продукции в Кыргызстане. 
+                  </h2>
+                </div>
+                <div className="articless__container-btn">
+                  <NavLink to="/articles3"> Подробнее</NavLink>
+                </div>
               </div>
-              <div className="articless__container-tittle">
-                <h2>
-                  Группа Компаний “Новая Норма” и Исследовательский институт по
-                  изучению Блокчейн «Централ Эйжа Интернэшнл» начинают
-                  сотрудничество.
-                </h2>
+            </NavLink>
+            <NavLink to="/articles2">
+              <div className="articless__container-box">
+                <div className="articless__container-img">
+                  <img src={images.artimg1} alt="" />
+                </div>
+                <div className="articless__container-tittle">
+                  <h2>
+                    ГК “Новая Норма” предоставляет маркировку легкой
+                    промышленности в Кыргызстане.
+                  </h2>
+                </div>
+                <div className="articless__container-btn">
+                  <NavLink to="/articles2"> Подробнее</NavLink>
+                </div>
               </div>
-              <div className="articless__container-btn">
-                <NavLink to="/articles1"> Подробнее</NavLink>
-              </div>
-            </div>
-            <div className="articless__container-box">
-              <div className="articless__container-img">
-                <img src={images.artimg1} alt="" />
-              </div>
-              <div className="articless__container-tittle">
-                <h2>
-                ГК “Новая Норма” предоставляет маркировку легкой промышленности в Кыргызстане. 
-                </h2>
-              </div>
-              <div className="articless__container-btn">
-                <NavLink to="/articles2"> Подробнее</NavLink>
-              </div>
-            </div>
-           
+            </NavLink>
+         
           </div>
         </div>
       </div>

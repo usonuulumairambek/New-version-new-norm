@@ -47,7 +47,7 @@ h2 {
 }
 
 .news__content {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -175,6 +175,10 @@ h2 {
 }
 
 .news__pic > img {
+    width: 50%;
+    padding: 20px 15px 0;
+    object-fit: contain;
+}.news__pic > video {
     width: 50%;
     padding: 20px 15px 0;
     object-fit: contain;

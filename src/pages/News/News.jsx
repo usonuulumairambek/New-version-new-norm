@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import axios from "axios";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import { NavLink } from "react-router-dom";
+import shineminxin from "./video/galosh.MP4";
 // import { getNewNews } from "../api/callbackAPI";
 export default function News() {
   const [state, setState] = useState({});
@@ -61,6 +62,45 @@ export default function News() {
           </NavLink>{" "}
         </div>
         {/* NEWS ITEM */}
+        <div className="news__item">
+          <span className="news__date">19.10.2021</span>
+          <p className="news__title">
+            Группа Компаний «Новая Норма» продолжает успешно внедрять цифровую
+            маркировку обуви производителей Кыргызской Республики.
+          </p>
+          <div className="news__line news__line-1" />
+          <span className="news__info">
+            <p>
+              Одним из таких производителей является отечественная компания
+              «Чайна Миньсинь Обувь», которая теперь готова к экспорту
+              промаркированного товара. <br /> <br /> ОсОО «Чайна Миньсинь
+              Обувь» — лидер на рынке по производству и оптовым продажам
+              всесезонной обуви из ПВХ и ЭВА, женской, мужской и детской обуви.
+              <br /> <br /> Фабрика-производитель обувной продукции прошла
+              первый этап маркировки, предприятие выпускает товары с цифровым
+              кодом. Сейчас компания готовится ко второму этапу маркировки.{" "}
+              <br /> <br />
+              Таким образом, ОсОО Группа Компаний «Новая Норма» и ОсОО «Чайна
+              Миньсинь Ко ЛТД» промаркировали более 60 тысяч пар обуви и
+              подготовили товары к экспорту в Российскую Федерацию.
+              <br /> <br /> Специалистами Группы компаний Новая Норма были
+              оказаны услуги обучения цифровым навыкам системы маркировки и
+              работе с маркированным товаром.
+              <br /> <br /> Напомним, что на территории РФ маркировка обуви
+              началась с 1 июля 2020 года. <br /> Маркировка обуви позволит
+              гарантировать потребителям подлинность и заявленное качество
+              приобретаемой продукции.
+              <div className="news__pic">
+                <img src={images.shineminxin} alt="pic" />
+                {/* <img src={images.shineminxin1} alt="pic" /> */}
+                <video width="auto" height="auto" autoPlay muted controls>
+                  <source src={shineminxin} type="video/mp4" />
+                </video>
+              </div>
+            </p>
+          </span>
+          <div className="news__line news__line-2" />
+        </div>
         <div className="news__item">
           <span className="news__date">06.08.2021</span>
           <p className="news__title">

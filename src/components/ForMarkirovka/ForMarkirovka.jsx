@@ -10,8 +10,6 @@ export default function ForMarkirovka() {
 		{ path: '/tekstil', title: 'Текстиль' },
 		{ path: '/milk', title: 'Молоко' },
 		{ path: '/parfum', title: 'Парфюм' },
-		{ path: '/alcohol', title: 'Алкоголь' },
-		{ path: '/tabak', title: 'Табак' },
 	]	
 	useEffect(() => {
 		Aos.init({ duration: 3000 });

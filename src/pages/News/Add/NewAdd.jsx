@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 // import firebase from "./../../config/FbConfig"
 import "./Add.css"
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
-import { getNewNews, sendNewNews } from "../../api/callbackAPI"
+// import { getNewNews, sendNewNews } from "../../api/callbackAPI";
 
 function NewAdd() {
   let newsEmpty = {
@@ -76,11 +76,10 @@ function NewAdd() {
       //   }
       // }
       // form.append("post_title", news.title)
+//      sendNewNews(form)
 
-      sendNewNews(form)
-
-      setNews(newsEmpty)
-      setisLoading(false)
+  //    setNews(newsEmpty)
+    //  setisLoading(false)
     }
 
     setError(checkValidate(news))
